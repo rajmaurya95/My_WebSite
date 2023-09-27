@@ -11,14 +11,14 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary"  data-bs-theme="dark" >
             <div className="container-fluid">
-                <Link  className="navbar-brand" to="/my_website"> My_WebSite</Link>
+                <Link  className="navbar-brand" to="#"> My_WebSite</Link>
                 <button className="fs-4 bd navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample  " aria-controls="offcanvasExample" >
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0" style={{}}>
                         <li className="nav-item">
-                            <Link  className={`nav-link ${location.pathname==='/'?'active':''}`} aria-current="page" to="/my_website">Home</Link>
+                            <Link  className={`nav-link ${location.pathname==='/my_website'?'active':''}`} aria-current="page" to="/my_website">Home</Link>
                         </li>
                         <li className="nav-item">
                             <Link  className={`nav-link ${location.pathname==='/about'?'active':''}`} to="/about">About</Link>
