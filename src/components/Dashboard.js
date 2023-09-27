@@ -215,10 +215,16 @@ function Dashboard(props) {
                     Remarks...
                 </textarea>
                  </div>
+            <div className="  col-12 col-md-3  mt-1 d-flex ">
+            <div className=" button-control ">
+                    <button className="btn btn-primary m-2 " > Save </button>
+                    <button id="" className='btn btn-warning m-2' >Edit
+                </button>
+                 </div>
+                 </div>
             </div>
             </div>
 </div>
-<script src="Aidebars.js"></script>
 </div>
         </>
     );
