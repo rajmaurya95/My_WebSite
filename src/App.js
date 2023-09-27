@@ -33,7 +33,7 @@ function App() {
         <Navbar />
         <Sidebar />
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/my_website" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/dashboard" element={<Dashboard />} />
         </Routes>

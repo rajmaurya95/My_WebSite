@@ -29,7 +29,7 @@ const Sidebar = (props) => {
                 <div className="list " id="navbarSupportedContent">
                     <div className="me-auto mb-2 p-3 mb-lg-0" style={{}}>
                        
-                            <Link  className={`mt-2 nav-link ${location.pathname==='/'?'active':''}`} aria-current="page" to="/home">Home</Link>
+                            <Link  className={`mt-2 nav-link ${location.pathname==='/'?'active':''}`} aria-current="page" to="/my_website">Home</Link>
                             <Link  className={` mt-2 nav-link ${location.pathname==='/about'?'active':''}`} to="/about">About</Link>
                             <Link  className={` mt-2 nav-link ${location.pathname==='/about'?'active':''}`} to="/about">Contact</Link>
                             <Link  className={` mt-2 nav-link ${location.pathname==='/dashboard'?'active':''}`} to="/dashboard">Dashboard</Link>

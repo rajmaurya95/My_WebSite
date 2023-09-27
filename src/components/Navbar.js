@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary"  data-bs-theme="dark" >
             <div className="container-fluid">
-                <Link  className="navbar-brand" to="/home"> My_WebSite</Link>
+                <Link  className="navbar-brand" to="/my_website"> My_WebSite</Link>
                 <button className="fs-4 bd navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample  " aria-controls="offcanvasExample" >
                     <span className="navbar-toggler-icon"></span>
                 </button>
