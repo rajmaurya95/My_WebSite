@@ -1,10 +1,10 @@
 {
   "homepage": "https://rajmaurya95.github.io/home/",
-<<<<<<< HEAD
-  "name": "basic_site",
-=======
+
+ 
+
   "name": "my_website",
->>>>>>> 2cfda01 (finally My_Website has been created)
+
   "version": "0.1.0",
   "private": true,
   "dependencies": {
